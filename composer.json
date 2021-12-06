@@ -1,0 +1,23 @@
+{
+    "name": "alter/mobile-reply",
+    "description": "Automatically open reply composer on mobile",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "proprietary",
+    "require": {
+        "flarum/core": "^1.1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Mobile Reply",
+            "category": "feature",
+            "icon": {
+                "name": "",
+                "backgroundColor": "",
+                "color": ""
+            }
+        }
+    }
+}
