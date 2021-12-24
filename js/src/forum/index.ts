@@ -8,12 +8,22 @@ app.initializers.add('quick-reply', () => {
     // Automatically open composer when visiting a discussion page
     // Flarum already takes care of closing unused composers when leaving the page
     extend(DiscussionPage.prototype, 'show', function (returnValue: never, discussion: any) {
-        if (app.screen() === 'phone' && discussion.canReply() && !app.composer.composingReplyTo(discussion)) {
-            app.composer.load(ReplyComposer, {
-                user: app.session.user,
-                discussion,
-            });
-            app.composer.show();
+        // Don't do anything if we can't reply
+        // Or if we are coming back to the discussion while we kept the editor opened
+        if (!discussion.canReply() || app.composer.composingReplyTo(discussion)) {
+            return;
+        }
+
+        // Force a specified height
+        app.composer.height = 100;
+
+        app.composer.load(ReplyComposer, {
+            user: app.session.user,
+            discussion,
+        });
+        app.composer.show();
+
+        if (app.screen() === 'phone') {
             app.composer.minimize();
         }
     });
