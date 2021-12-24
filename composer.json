@@ -1,6 +1,6 @@
 {
     "name": "convo-extensions/flarum-ext-quick-reply",
-    "description": "Automatically open reply composer on mobile",
+    "description": "Automatically open reply composer when visiting a discussion",
     "keywords": [
         "flarum"
     ],
