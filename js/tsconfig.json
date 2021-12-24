@@ -1,7 +1,10 @@
 {
     "extends": "flarum-tsconfig",
     "include": [
-        "forum.ts"
+        "src/**/*"
+    ],
+    "files": [
+        "shims.d.ts"
     ],
     "compilerOptions": {
         "declarationDir": "./dist-typings",

@@ -1,5 +1,5 @@
 {
-    "name": "alter/mobile-reply",
+    "name": "convo-extensions/flarum-ext-quick-reply",
     "description": "Automatically open reply composer on mobile",
     "keywords": [
         "flarum"
@@ -11,12 +11,12 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Mobile Reply",
+            "title": "Quick Reply",
             "category": "feature",
             "icon": {
-                "name": "",
-                "backgroundColor": "",
-                "color": ""
+                "name": "fas fa-reply",
+                "backgroundColor": "#062871",
+                "color": "#fff"
             }
         }
     }
