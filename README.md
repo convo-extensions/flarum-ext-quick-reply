@@ -12,4 +12,11 @@ This extension doesn't require any configuration. Simply enable it to have the c
 ![](https://i.imgur.com/fj6tWas.gif)
 
 # [Try it yourself! (Demo)](https://convo-extensions-demo.convo.co.il/d/3-quick-reply)
-First 7 days are free, no credit card required. If you've purchased the extension and encountered an error, please reach out at support@convo.co.il
+
+Once you've purchased the extensions, run the following command to install:
+
+```
+composer require convo-extensions/flarum-ext-quick-reply
+```
+
+If you need any help, shoot us an email at support@convo.co.il
