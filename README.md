@@ -13,7 +13,7 @@ This extension doesn't require any configuration. Simply enable it to have the c
 
 # [Try it yourself! (Demo)](https://convo-extensions-demo.convo.co.il/d/3-quick-reply)
 
-Once you've purchased the extensions, run the following command to install:
+Once you've purchased the extension, run the following command to install:
 
 ```
 composer require convo-extensions/flarum-ext-quick-reply
