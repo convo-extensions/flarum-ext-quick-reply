@@ -2,10 +2,10 @@
     "name": "convo-extensions/flarum-ext-quick-reply",
     "description": "Automatically open reply composer when visiting a discussion",
     "keywords": [
-        "flarum"
+        "flarum", "quick", "reply"
     ],
     "type": "flarum-extension",
-    "license": "proprietary",
+    "license": "GPL-3.0-only",
     "require": {
         "flarum/core": "^1.1.0"
     },
